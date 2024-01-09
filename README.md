@@ -22,11 +22,11 @@ If You like My OpenSource Work you can Support : https://www.buymeacoffee.com/sa
 | Feature                  | Description                             |
 |--------------------------|-----------------------------------------|
 | Stream/Non Stream                | Supports Streaming/Non-Streaming Response|
-| Discord Bot             | Discord Bot Integerated with API For Key Management|
+| Discord Bot             | Bot With Key Generation/Regenertion ,Usage Information|
 | Multiple Users                   | Can Handle Multiple Rqeuests Altogether |
 | Master Key              | A Master Key Only For the Developer |
 | Credit System          | A Credit System that Can be Customized |
-
+| OpenAI Library        | Supports the Latest OpenAI Library |
 
 # Installation 
 
@@ -64,7 +64,31 @@ python main.py
 Congratulations! Your API is Up and Running!
 
 
+## Usage
 
+Replace the Base_url with your Replit URL and Use Your API Key Generated From Discord Bot/Developer Master Key.
+
+
+```python
+pip install openai==1.7.0
+```
+
+```python
+
+from openai import OpenAI
+
+client = OpenAI(api_key="/generate-key", base_url="Your replit.dev URL Here")
+
+completion = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Hello!"},
+    ],
+)
+
+print(completion.choices[0].message.content)
+```
 
 
 
