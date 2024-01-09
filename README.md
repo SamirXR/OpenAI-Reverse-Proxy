@@ -22,7 +22,7 @@ If You like My OpenSource Work you can Support : https://www.buymeacoffee.com/sa
 | Feature                  | Description                             |
 |--------------------------|-----------------------------------------|
 | Stream/Non Stream                | Supports Streaming/Non-Streaming Response|
-| Discord Bot             | Bot With Key Generation/Regenertion ,Usage Information|
+| Discord Bot             | Bot With Key Generation/Regeneration,Usage Information|
 | Multiple Users                   | Can Handle Multiple Rqeuests Altogether |
 | Master Key              | A Master Key Only For the Developer |
 | Credit System          | A Credit System that Can be Customized |
