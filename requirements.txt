@@ -1,0 +1,8 @@
+py-cord
+fastapi
+replit
+httpx
+python-multipart
+python-dotenv
+pydantic
+uvicorn
