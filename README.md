@@ -5,7 +5,7 @@ Note: This Will Only Work on Replit as it uses Replit DataBase
 
 This Project on API was done by  [@SamirXR](https://www.instagram.com/samir.xr/) and [@Herumes](https://github.com/herumes) So give us Proper Credit as we Worked our ASS Off for This!
 
-Join [Discord Server](https://discord.gg/P9gGZaXWGR) for any Assist/Issues or Testing it!
+Join [Discord Server](https://discord.gg/p7H6HJmCN7) for any Assist/Issues or Testing it!
 
 If You like My OpenSource Work you can Support : https://www.buymeacoffee.com/samir.xr
 
